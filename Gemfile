@@ -21,9 +21,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
-  gem 'sqlite3', '~> 1.4'
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-
+  gem 'sqlite3', '1.4.1'
+  gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
@@ -37,10 +36,9 @@ group :development do
   gem 'spring'
 end
 
-group  :production do
-  gem 'pg', '~> 1.2', '>= 1.2.3'
+group :production do
+  gem 'pg', '1.1.4'
 end
-
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
