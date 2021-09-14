@@ -13,4 +13,7 @@ class PagesController < ApplicationController
   def new
 
   end
+  def setting
+
+  end
 end

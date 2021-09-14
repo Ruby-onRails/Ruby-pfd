@@ -83,6 +83,23 @@ footer {
     }
   }
 }
+@media (max-width: 800px) {
+  footer {
+    small {
+      display: block;
+      float: none;
+      margin-bottom: 1em;
+    }
+    ul {
+      float: none;
+      padding: 0;
+      li {
+        float: none;
+        margin-left: 0;
+      }
+    }
+  }
+}
 
 .home-h1{
   margin-top: 10rem;
@@ -134,7 +151,7 @@ footer {
   letter-spacing: 1.5px;
   word-spacing: 1px;
 }
-.btn{
-  color: #999999;
+.btn-upsign{
+  color: #F7F7F7;
   font-size: 20px;
 }
